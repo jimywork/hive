@@ -1,12 +1,10 @@
 
-//*************************************************************************
 nc.sh - scripted netcat listener to emulate listening post until LP is set up
 
   Usage: ./nc.sh
 
 
-//*************************************************************************
-hclient - hive client that works with Windows, Solaris, and Linux implant
+#### hclient - hive client that works with Windows, Solaris, and Linux implant
 
   Usage:
   ./hclient-linux-dbg [-p port] 
@@ -19,12 +17,8 @@ hclient - hive client that works with Windows, Solaris, and Linux implant
     [-P protocol]  - trigger protocol
     [-d delay]     - (optional) delay between received trigger and callback
     [-h ]          - print this usage
-
-  Examples:
-   Coming soon!
-
-//*************************************************************************
-hived - hive implant
+ 
+#### hived - hive implant
 
   Usage:
   ./hived-solaris-sparc-dbg  -a <ip address> -p <port> 
@@ -38,4 +32,4 @@ hived - hive implant
 
   Example:
   ./hived-solaris-sparc-dbg -a 10.3.2.76 -p 9999 -i 100000 -I hme0
-
+  
